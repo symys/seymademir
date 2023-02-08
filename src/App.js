@@ -1,6 +1,6 @@
 import HomePage from './Components/HomePage';
 // import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 
@@ -9,7 +9,7 @@ function App() {
     <div className='flex flex-col w-screen h-screen'>
       {/* <Navbar /> */}
       <HomePage />
-      <Footer />
+      {/* <Footer /> */}
       <Projects />
       <Contact />
     </div>
