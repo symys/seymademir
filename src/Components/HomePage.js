@@ -11,8 +11,8 @@ function HomePage() {
           </div>
           <div className="text-3xl mt-6">Frontend Developer</div>
           <div className="flex flex-row gap-6 mt-10 self-center font-rubik text-lg">
-            <div>Projects</div>
-            <div>Contact</div>
+          <a href="#latestprojects"><div>Projects</div></a>
+          <a href="#contact"> <div>Contact</div></a>
           </div>
         </div>
         <div>

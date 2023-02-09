@@ -8,7 +8,7 @@ import madlibsImg from "../images/madlibs.JPG"
 
 function Projects() {
   return (
-    <div className="pt-20 font-rubik">
+    <div className="pt-20 font-rubik"  id="latestprojects">
       <h1 className="tracking-wider text-4xl flex justify-center mt-16">Latest Projects</h1>
       <div className="flex flex-col mt-16">
         <div className="flex flex-row justify-between pl-20 pr-20">
@@ -146,16 +146,16 @@ function Projects() {
           </div>
           <div class="flex ">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <a href="#!">
+              <a href="https://recoded-spark-turkey-2022.github.io/mad-libs-los-galacticos/">
                 <img
                   class="rounded-t-lg"
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                  src={madlibsImg}
                   alt=""
                 />
               </a>
               <div class="p-6">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">
-                  Card title
+                  Mad Libs Game
                 </h5>
                 <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
