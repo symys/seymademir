@@ -8,13 +8,13 @@ import madlibsImg from "../images/madlibs.JPG";
 function Projects() {
   return (
     <div className="pt-20 font-rubik" id="latestprojects">
-      <h1 className="tracking-wider text-4xl flex justify-center mt-16">
+      <h1 className="tracking-wider lg:text-4xl text-2xl flex justify-center mt-16">
         Latest Projects
       </h1>
       <div className="flex flex-col mt-16">
-        <div className="flex flex-row justify-between pl-20 pr-20">
-          <div class="flex ">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+        <div className="flex lg:flex-row flex-col justify-between pl-20 pr-20">
+          <div class="flex lg:pr-0 pr-10">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm ">
               <img
                 class="rounded-t-lg"
                 src={healingImg}
@@ -22,14 +22,14 @@ function Projects() {
               />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   Online Therapist
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                 <a href="https://main--jocular-kitsune-979dd9.netlify.app/">
                   <button
                     type="button"
@@ -49,19 +49,19 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div class="flex ">
+          <div class="flex lg:pr-0 pr-10 lg:pt-0 pt-10">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
               <img class="rounded-t-lg" src={todoImg} alt="" />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   To-Do App
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                 <a href="https://effervescent-longma-4868ea.netlify.app/">
                   <button
                     type="button"
@@ -81,19 +81,19 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div class="flex ">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+          <div class="flex  lg:pt-0 pt-10 ">
+            <div class="rounded-lg shadow-lg bg-white  max-w-sm">
               <img class="rounded-t-lg" src={adviceImg} alt="" />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   Random Advice App
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                 <a href="https://nimble-wisp-86e992.netlify.app/">
                   <button
                     type="button"
@@ -114,20 +114,20 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-between pl-20 pr-20 pt-16">
+        <div className="flex lg:flex-row flex-col justify-between pl-20 pr-20 pt-16">
           <div class="flex ">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
               <img class="rounded-t-lg" src={movieImg} alt="" />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   Movie Project
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                 <a href="https://recoded-spark-turkey-2022.github.io/movie-project-playing-our-way/">
                   <button
                     type="button"
@@ -154,14 +154,14 @@ function Projects() {
               <img class="rounded-t-lg" src={madlibsImg} alt="" />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   Mad Libs Game
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                   <a href="https://recoded-spark-turkey-2022.github.io/mad-libs-los-galacticos/">
                     <button
                       type="button"
@@ -187,14 +187,14 @@ function Projects() {
               <img class="rounded-t-lg" src={madlibsImg} alt="" />
 
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                <h5 class="text-gray-900 text-xl font-medium mb-2 justify-center flex">
                   Mad Libs Game
                 </h5>
-                <p class="text-gray-700 text-base mb-4">
+                {/* <p class="text-gray-700 text-base mb-4">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
-                </p>
-                <div className="flex flex-row justify-between pl-16 pr-16">
+                </p> */}
+                <div className="flex flex-row justify-between pl-16 pr-16 pt-12">
                   <a href="https://recoded-spark-turkey-2022.github.io/mad-libs-los-galacticos/">
                     <button
                       type="button"
