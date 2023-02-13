@@ -115,7 +115,7 @@ function Projects() {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-between pl-20 pr-20 pt-16">
-          <div class="flex ">
+          <div class="flex lg:pt-0 pt-10">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
               <img class="rounded-t-lg" src={movieImg} alt="" />
 
@@ -149,7 +149,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div class="flex ">
+          <div class="flex lg:pt-0 pt-10">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
               <img class="rounded-t-lg" src={madlibsImg} alt="" />
 
@@ -182,7 +182,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div class="flex ">
+          <div class="flex lg:pt-0 pt-10">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
               <img class="rounded-t-lg" src={madlibsImg} alt="" />
 
