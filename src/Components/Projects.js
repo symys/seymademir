@@ -5,6 +5,7 @@ import healingImg from "../images/healing.JPG";
 import movieImg from "../images/movie.JPG";
 import madlibsImg from "../images/madlibs.JPG";
 import minionsImg from "../images/minions.JPG";
+import homebtn from "../images/homebutton.png"
 
 const projects = [
   {
@@ -108,6 +109,10 @@ function Projects() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex items-center flex-col">
+      <a title="GO HOME PAGE" href="#homepage"><img src={homebtn} alt="homebtn" className="w-10 opacity-50 hover:opacity-100 hover:cursor-pointer mt-10 "/></a>
+      {/* <div className="flex mt-4 text-gray-400 font-bold tracking-wider">GO HOME</div> */}
       </div>
     </div>
   );

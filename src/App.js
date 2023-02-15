@@ -7,9 +7,7 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <div className='flex flex-col w-screen h-screen'>
-      {/* <Navbar /> */}
       <HomePage />
-      {/* <Footer /> */}
       <Projects />
       <Contact />
     </div>

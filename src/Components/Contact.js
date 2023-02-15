@@ -2,6 +2,7 @@ import React from 'react'
 import linkedin from "../images/linkedin.png"
 import github from "../images/github.png"
 import behance from "../images/behance.png"
+import homebtn from "../images/homebutton.png"
 
 function Contact() {
   return (
@@ -16,6 +17,10 @@ function Contact() {
         <div className="text-xl mt-6 flex self-center mb-40">seymademir35@gmail.com</div>
 
       {/* <div className="basis-1/4 mr-36">seymademir35@gmail.com</div> */}
+      <div className="flex items-center flex-col">
+      <a title="GO HOME PAGE" href="#homepage"><img src={homebtn} alt="homebtn" className="w-10 opacity-50 hover:opacity-100 hover:cursor-pointer mt-10 pb-20"/></a>
+      {/* <div className="flex mt-4 text-gray-400 font-bold tracking-wider">GO HOME</div> */}
+      </div>
     </div>
   )
 }

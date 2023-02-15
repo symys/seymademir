@@ -4,7 +4,7 @@ import seymaImg from "../Seyma Demir_Turkey_2022.jpg";
 function HomePage() {
   return (
     <>
-      <div className="flex lg:flex-row flex-col font-rubik justify-evenly lg:mt-20 mt-10">
+      <div id="homepage" className="flex lg:flex-row flex-col font-rubik justify-evenly lg:mt-20 mt-10">
         <div className=" flex flex-col self-center justify-center tracking-wider lg:ml-0 ml-4 mr-4">
           <div className="lg:text-6xl text-3xl tracking-widest lg:mt-0 mt-10">
             Hi! I'm <strong>Şeyma Demir</strong>
