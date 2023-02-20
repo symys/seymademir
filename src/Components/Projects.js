@@ -5,7 +5,7 @@ import healingImg from "../images/healing.JPG";
 import movieImg from "../images/movie.JPG";
 import madlibsImg from "../images/madlibs.JPG";
 import minionsImg from "../images/minions.JPG";
-import homebtn from "../images/homebutton.png"
+
 
 const projects = [
   {
@@ -68,8 +68,8 @@ function Projects() {
         Latest Projects
       </h1>
       <div className="mt-10 flex lg:flex-row flex-col flex-wrap justify-evenly">
-        {projects.map((project) => (
-          <div className="flex  pl-6 pr-6">
+        {projects.map((project, index) => (
+          <div className="flex  pl-6 pr-6" key={index}>
             <div className=" flex flex-col rounded-lg shadow-lg bg-white max-w-sm mt-10">
               <div className="basis-1/3">
                 <img
@@ -110,10 +110,6 @@ function Projects() {
           </div>
         ))}
       </div>
-      {/* <div className="flex items-center flex-col">
-      <a title="GO HOME PAGE" href="#homepage"><img src={homebtn} alt="homebtn" className="w-10 opacity-50 hover:opacity-100 hover:cursor-pointer mt-10 "/></a>
-      <div className="flex mt-4 text-gray-400 font-bold tracking-wider">GO HOME</div> 
-      </div>*/}
     </div>
   );
 }
